@@ -1,0 +1,41 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# --- node ---
+node_modules/
+.npm/
+pnpm-lock.yaml
+yarn-error.log
+
+# --- logs / runtime ---
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# --- os / editor ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.swp
